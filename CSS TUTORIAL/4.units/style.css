@@ -1,0 +1,38 @@
+/* main{
+    border: 5px solid brown;
+    width: 50%; 
+     width: 75vw;
+} */
+/* section{
+    border: 5px dashed green;
+    
+    width: 50vw;
+} */
+body{
+    font-size: 1em;
+}
+/* header{
+    font-size: 2em;
+} */
+h1{
+    font-size: 1rem;
+    /* rem is relative to root (outermost element like body tAG) */
+}
+P{
+    line-height: 20px; /*normal*/
+    text-transform: capitalize;
+}
+
+#outer{
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    background-color: green;
+}
+#inner{
+    height: 2em; 
+    width: 50%;
+    /* height and width in em is relative to font-size */
+    font-size:1em ;
+    background-color: yellow;
+}

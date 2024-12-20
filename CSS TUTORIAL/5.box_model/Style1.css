@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    background-color: beige;
+    width: 100px;
+    /* border-width: 4px;
+    border-style:dashed ;
+    border-color:rgb(96, 96, 73) ; */
+    border: 4px dashed blue;
+    /* border-radius: 50%; (It gives Circle)*/
+    /* padding-left: 25px; */
+    padding: 25px 30px 40px 50px;
+    /* margin-top: 50px; */
+    margin: 25px ;
+    }

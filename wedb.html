@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning platform</title>
+    <style>
+        #navbar{
+            display: flex;
+            justify-content: space-evenly;
+            }
+        #search-bar{
+            border-radius: 20px;
+            width: 50%;
+            text-align: center;
+            height: 50px;
+            margin-bottom: 5px;
+            font-size: large;
+        }
+        #hero-img{
+            background-image: url(https://img-b.udemycdn.com/notices/web_carousel_slide/image/214e5537-8f5c-4969-abf8-615c7a7b5724.png);
+            height: 350px;
+            width: 100%;
+            background-size: cover;
+        }
+        #text{
+            font-size:  60px;
+            position: absolute;
+            top: 170px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-wrap: repeat;
+            left: 50px;
+         }
+         .buttons{
+            position: relative;
+            top: 190px;
+            left: 100px;
+            margin-top: 10px;
+            height: 50px;
+            width: 100px;
+            background-color: black;
+            color: white;
+            border: none;
+            margin-right: 5px;
+            margin-left: 5px;
+         }
+         #para1,#para2{
+            position: relative;
+            top: 40px;
+            margin-top: 0;
+            margin-bottom: 10px
+         }
+         #para1{
+            font-size: 60px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(88, 88, 88);
+         }
+         #para2{
+            font-size: 20px;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <p>Udemy</p>
+            <input type="text" placeholder="Search courses" id="search-bar">
+            <p>Courses</p>
+            <p>Plans & pricing</p>
+            <p>Teach on Udemy</p>
+        </div>
+    </header>
+    <main>
+        <div id="hero-img">
+            <span id="text">Start Learning for Free</span>
+            <button class="buttons">Log in</button>
+            <button class="buttons">Sign up</button>
+        </div>
+        <div id="main-text">
+            <p id="para1">All the skills you need in one place</p>
+            <p id="para2">From critical skills to technical topics, Udemy supports your professional development</p>
+        </div>
+    </main>
+</body>
+</html>

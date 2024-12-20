@@ -1,0 +1,23 @@
+
+div{
+    height: 100px;
+    background-color: beige;
+    width: 100px;
+    /* border-style:dashed ; */
+     border-style:dashed solid double ; /*(dashed top, solid sides, double bottom)  */
+    /* border-width: 4px; */
+    border-width: 10px 5px;  /* (10 px applies to top and bottom 5 px applies to right and left) */
+    /* border-width: 2px 5px 7px 9px;     (2px top, 5px right, 7px bottom and 9px left) */
+    border-color:rgb(96, 96, 73) ;
+    /* border: 4px dashed blue; */
+    /* text-align: right; */
+}
+h1{
+    width:200px;
+    height: 50px;
+    background-color: aquamarine;
+    border: 2px solid red;
+    text-align: center;
+    border-radius: 15px;
+
+}

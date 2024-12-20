@@ -1,0 +1,54 @@
+body{
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+a:visited{
+    color: blue;
+}
+a:link{
+    color: beige;
+}
+a:active{
+    color: black;
+}
+/* by default bold(400) */
+/* can be set between 100-900 */
+/* div{
+    font-weight: lighter;
+    color: aqua;
+} */
+.h2{
+    font-weight: normal;
+}
+.h3{
+    font-weight: lighter;
+    color: black;
+}
+.h1{
+    font-weight: 900;
+    text-decoration: red wavy overline;
+}
+p{
+    font-family: Arial;
+    font-size: 20px; /* 96px = 1inch */
+}
+.para2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    /* line-height: 2px; */
+    /* line-height: 3; */
+    line-height: initial;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+   
+}

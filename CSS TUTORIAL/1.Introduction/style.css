@@ -1,0 +1,14 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: aqua;
+    background-color: black;
+}
+button{
+    background-color: brown;
+    color: beige;
+}
+body{
+    background-color: rgb(226, 21, 164);
+}

@@ -1,0 +1,3 @@
+javascript error
+
+This occur when there is a mistake in the syntax of the code

@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid rgb(216, 215, 215);
+    border-top:4px solid rgb(0, 0, 0);
+    /* transform: rotate(360deg);
+    transition-duration: 0ms; */
+    animation: rotate 1s ease-in-out 0s infinite normal ;  
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

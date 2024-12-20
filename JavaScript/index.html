@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var msg="Hello";
+        // document.write(typeof(msg));
+        // console.log(msg);
+        // let grade=prompt("Enter your percentage in number");
+        // if(grade>=35 && grade<=40){
+        //     document.write("Grade C");
+        // }
+        // else if(grade>=41 && grade<79){
+        //     document.write("Grade B");
+        // }
+        // else if(grade>=80 ){
+        //     document.write("Grade A");
+        // }
+        // else{
+        //     document.write("Fail");
+        // }
+
+        // let temp=prompt("Enter The temperature");
+
+        // if(temp<=0){
+        //     document.write("Its cold and snowy");
+        // }
+        // else if(temp>0 && temp<=20){
+        //     document.write("Its cold ");
+        // }
+        // else if(temp>20 && temp<35){
+        //     document.write("Its Moderate ");
+        // }
+        // else{
+        //     document.write("Its Hot");
+        // }
+
+        // let number = prompt("Enter a number");
+        // if(number%2==0){
+        //     document.write(number, " is Even");
+        // }
+        // else{
+        //     document.write("odd");
+        // }
+        let firstname = ["aaau", "siuuuu", "NIUU"];
+        let lastname = ["singh", "pal", "chugh"];
+        for (let i = 0; i < firstname.length; i++) {
+            document.write(`${firstname[i]} ${lastname[i]}<br>`);
+        }
+
+        let course = ['COA', 'DSA', 'WEB DEV'];
+        let coursedetail = " ";
+        for (let x of course) {
+            coursedetail += x + " ";
+            document.write(x + "<br>");
+        }
+
+        document.write("<br>Combined Course Details: " + coursedetail);
+
+
+
+    </script>
+</body>
+</html>

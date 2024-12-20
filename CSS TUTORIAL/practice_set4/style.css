@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* color: white; */
+ }
+.contentbox1{
+    height: atopx;
+    width: auto;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px 165px  ;
+}
+main{
+    height: 588px;
+}
+#div1{
+    background-color: rgba(139, 219, 139,0.5);
+}
+#div2{
+    background-color: rgba(12, 63, 107, 0.5);
+}
+#div3{
+    background-color: rgba(222, 151, 104, 0.5);
+}
+ #navbar{
+    height: 60px;
+    background-color:#0f1111 ;
+    border: 5px solid rgb(111, 37, 37);
+    
+ }
+ a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+ }
+ button{
+    background-color: #f08804;
+ }
+ #logo{
+    color:#f08804 ;
+    font-size: 25px;
+ }
+ footer{
+    background-color:#0f1111 ;
+    text-align: center;
+    color: white;
+ }
+ .contentbox1:hover{
+    background-color: rgb(243, 26, 26);
+    cursor: pointer;
+    color:#f08804;
+    
+ }
