@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function calculateCompoundInterest(principal, rate, time) 
+        {
+            let amount = principal * Math.pow((1 + rate / 100), time);
+            let compoundInterest = amount - principal;
+            return compoundInterest;
+        }
+
+
+        let principal = 1000; 
+        let rate = 5;
+        let time = 2;   
+
+        let compoundInterest = calculateCompoundInterest(principal, rate, time);
+
+        console.log(`The Compound Interest is: ${compoundInterest.toFixed(2)}`);
+    </script>
+</body>
+</html>

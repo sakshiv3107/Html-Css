@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: linear-gradient(135deg,rgba(225, 229, 247, 0.87),rgb(111, 200, 238));
+    color: #f4f4f4;
+}
+.header {
+    background: linear-gradient(135deg,rgba(173, 173, 173, 0.87),rgb(18, 129, 177));
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+    animation: fadeIn 2s;
+    font-weight: 600;
+}
+.header p{
+    font-size: large;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.main-content {
+    background: rgba(24, 24, 24, 0.77);
+    padding: 20px;
+    margin-top: 20px;
+    animation: slideIn 1s;
+}
+.main-content h2 {
+    text-align: center;
+}
+.skills, .hobbies, .projects, .contact {
+    margin-top: 20px;
+}
+.skills ul, .hobbies ul, .projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+.skills li, .hobbies li, .projects li {
+    background: #7a7a79;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 5px;
+    animation: fadeInUp 1s;
+}
+.contact a{
+     text-decoration: none;
+     color: #fffbfb;
+}
+.footer {
+    /* background-color: #484848; */
+    color: rgb(45, 45, 45);
+    text-align: center;
+    padding: 5px 0;
+    /* position: fixed; */
+    width: 100%;
+    /* bottom: 0; */
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
